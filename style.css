@@ -1,0 +1,632 @@
+img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+/* takım.html */
+
+.team-header{
+    width: 100%;
+    background: linear-gradient(rgb(14, 37, 100), rgba(7, 40, 132, .5)), url("img/hero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team-header-title{
+    padding: 5rem 0;
+}
+
+.team-left-menu ul li{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.team-left-menu ul li:hover{
+    color: #990033;
+}
+
+.team-search-title{
+    color: #990033;
+}
+
+.team-input{
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: .5rem;
+}
+
+.team-search-btn{
+    background-color: transparent;
+}
+
+.team-search-btn:hover{
+    background-color: #990033;
+    transition: .34s;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hakkimizda.html */
+
+.hakkımızda-header{
+    width: 100%;
+    background: linear-gradient(rgb(14, 37, 100), rgba(7, 40, 132, .5)), url("https://www.aksan.av.tr/Photos/PageContent/thumbs/b6474c4f.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hakkımızda-header-title{
+    margin-top: 15rem;
+    padding-bottom: 10rem;
+}
+
+.Hakkımızda-title h3 a{
+    color: gray;
+    text-decoration: none;
+}
+
+.Hakkımızda-title h3 a:hover{
+    color: #990033;
+}
+
+.Hakkımızda-title-active a{
+    color: #990033;
+    text-decoration: none;
+}
+
+.tarihce{
+    color: #990033;
+}
+
+.hakkımızda-section2{
+    padding: 5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(35, 38, 46), rgba(7, 40, 132, .5)), url("https://www.aksan.av.tr/Photos/PageContent/thumbs/761b60e4.JPG");
+}
+
+.hakkımızda-secbtn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: gray;
+}
+
+.hakkımızda-footer{
+    background-color: #030a1f;
+    color: white;
+    padding: 5rem;
+}
+
+.hakkımızda-footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.hakkımızda-footer a:hover{
+    color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* index.html */
+
+.anasayfa-main-header{
+    width: 100%;
+    background: linear-gradient(rgb(23, 22, 43), rgba(31, 37, 105, 0.5)) , url(https://www.aksan.av.tr/Photos/Slider/thumbs/e3d75e70.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.anasayfa-header-title{
+    padding-bottom: 15rem;
+}
+
+.anasayfa-navbar-brand{
+    width: 250px;
+}
+
+.anasayfa-dil{
+    cursor: pointer;
+}
+
+.anasayfa-navbar{
+    padding-bottom: 17rem;
+}
+
+.anasayfa-col-12{
+    font-size: 20px;
+    text-transform: none;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #990033;
+}
+
+.anasayfa-section2{
+    width: 100%;
+    background: linear-gradient(rgb(15, 14, 27), rgba(13, 15, 41, 0.5)) , url(https://www.aksan.av.tr/Photos/PageContent/thumbs/a42e67fa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.anasayfa-section-top{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.anasayfa-section-bot{
+    margin-bottom: 2rem;
+}
+
+.anasayfa-secbtn{
+    text-align: center;
+}
+
+.anasayfa-SubmitButtonClass{
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    color: white;
+    margin-bottom: 7rem;
+}
+
+.anasayfa-alan2-sol{
+    background: linear-gradient(rgb(15, 14, 27), rgba(13, 15, 41, 0.5)) , url(img/Ekran\ Alıntısı.JPG);
+}
+
+.col-md-6{
+    text-align: center;
+    color: white;
+}
+
+.anasayfa-hizmet-noktalarımız{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.anasayfa-hizmet-acıklama{
+    margin-bottom: 10rem;
+}
+
+.anasayfa-input{
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: .5rem;
+}
+
+
+
+.anasayfa-footer{
+    background-color: #030a1f;
+    color: white;
+    padding: 5rem;
+}
+
+.li-a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.anasayfa-ul a:hover{
+    color: gray;
+}
+
+
+footer #notifymeform .email-add {
+    float: left;
+    margin: 0;
+    padding: 0 12px;
+    width: 70%;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 11px;
+    line-height: 35px;
+    background-color: transparent;
+}
+
+footer #notifymeform #notifyme-button {
+    width: 30%;
+    float: left;
+    padding: 6px 14px !important;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/* hizmetlerimiz.html */
+
+.hizmetlerimiz-header{
+    width: 100%;
+    background: linear-gradient(rgb(34, 36, 66), rgba(35, 42, 56, 0.5)), url("https://www.aksan.av.tr/Photos/PageContent/thumbs/771e046a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+
+
+.hizmetlerimiz-header-title{
+    padding-bottom: 6rem;
+    margin-top: 16rem;
+}
+
+.hizmetlerimiz-navbar-brand{
+    width: 250px;
+}
+
+
+
+.hizmetlerimiz-ul a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    line-height: 40px;
+}
+
+.hizmetlerimiz-ul a:hover{
+    color: #990033;
+}
+
+
+
+.hizmetlerimiz h3{
+    color: #990033;
+}
+
+.hizmetlerimiz h4{
+    color: #990033;
+    font-size: 24px;
+}
+
+
+
+.hizmetlerimiz-section2{
+    width: 100%;
+}
+
+.hizmetlerimiz-section-top{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hizmetlerimiz-col-md-6{
+    text-align: center;
+    color: white;
+}
+
+
+
+input{
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: .5rem;
+}
+
+
+
+footer{
+    background-color:#030a1f;
+    color: white;
+    padding: 5rem;
+}
+
+.li-a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+
+footer #notifymeform .email-add {
+    float: left;
+    margin: 0;
+    padding: 0 12px;
+    width: 70%;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 11px;
+    line-height: 35px;
+    background-color: transparent;
+}
+
+footer #notifymeform #notifyme-button {
+    width: 30%;
+    float: left;
+    padding: 6px 14px !important;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* kariyer.html */
+
+.kariyer-header{
+    width: 100%;
+    background: linear-gradient(rgb(34, 36, 66), rgba(35, 42, 56, 0.5)), url("https://www.aksan.av.tr/Photos/PageContent/thumbs/2c6fd614.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.header-title{
+    padding-bottom: 7rem;
+}
+
+.navbar-brand{
+    width: 250px;
+}
+
+.navbar{
+    padding-bottom: 12rem;
+}
+
+.kariyer-h3{
+    color: #990033;
+}
+
+.kariyer-h4{
+    color: #990033;
+}
+
+.radius{
+    border-radius: 100%;
+    width: 150px;
+}
+
+.gamze{
+    color: #990033;
+}
+
+.kariyer-section2{
+    width: 100%;
+}
+
+.kariyer-section4{
+    width: 100%;
+    background: linear-gradient(rgb(15, 14, 27), rgba(13, 15, 41, 0.5)) , url(https://www.aksan.av.tr/Photos/PageContent/thumbs/5e798fbd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tıkla{
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.section-top{
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+
+.section-bot{
+    margin-bottom: 2rem;
+}
+
+
+
+.alan2-sol{
+    background: linear-gradient(rgb(15, 14, 27), rgba(13, 15, 41, 0.5)) , url(img/Ekran\ Alıntısı.JPG);
+}
+
+.col-md-6{
+    text-align: center;
+    color: white;
+}
+
+.hizmet-noktalarımız{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.hizmet-acıklama{
+    margin-bottom: 10rem;
+}
+
+.secbtn{
+    text-align: center;
+}
+
+.SubmitButtonClass{
+    border: none;
+    border-bottom: 1px solid gray;
+    background: none;
+    color: white;
+    margin-bottom: 7rem;
+}
+
+
+input{
+    background-color: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: .5rem;
+}
+
+
+
+footer{
+    background-color:#030a1f;
+    color: white;
+    padding: 5rem;
+}
+
+.li-a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: gray;
+}
+
+
+footer #notifymeform .email-add {
+    float: left;
+    margin: 0;
+    padding: 0 12px;
+    width: 70%;
+    color: #fff;
+    border: 1px solid #fff;
+    font-size: 11px;
+    line-height: 35px;
+    background-color: transparent;
+}
+
+footer #notifymeform #notifyme-button {
+    width: 30%;
+    float: left;
+    padding: 6px 14px !important;
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* hizmetnokta.html */
+.hizmetnoktalarimiz-header{
+    width: 100%;
+    background-image: url(img/hizmetnoktehero.jpg);
+}
+
+.content1 h2{
+    color: #990033;
+}
+
+.mapp img{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .main-header{
+        width: 100%;
+    }
+    
+    .navbar{
+        padding-bottom: 7rem;
+    }
+
+    .footer{
+        width: 100%;
+    }
+    
+    .hizmet-acıklama{
+        margin-bottom: 0;
+    }
+
+    .hizmet-noktalarımız{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .SubmitButtonClass{
+        margin-bottom: 0;
+    }
+
+    .section-top{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .section-bot{
+        margin-bottom: 0;
+    }
+
+}
